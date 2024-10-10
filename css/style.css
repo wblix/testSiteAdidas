@@ -1,0 +1,32 @@
+html * {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    }
+    
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic';
+    src: local('ITC Avant Garde Gothic Bold Cn'), local('ITC-Avant-Garde-Gothic-Bold-Cn'),
+        url('ITCAvantGardeStd-BoldCn.woff2') format('woff2'),
+        url('ITCAvantGardeStd-BoldCn.woff') format('woff'),
+        url('ITCAvantGardeStd-BoldCn.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  .headerBar{
+    display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+ 
+  }
+  
+  .headerBar p{
+    font-size:  var(--gl-body-font-set-size-functional-4);;
+  }
+
+  p{
+    font-family: 'ITC Avant Garde Gothic';
+    font-size: 50px;
+  }
+
