@@ -16,17 +16,101 @@ html * {
   }
   .headerBar{
     display: flex;
-      flex-direction: row;
-      justify-content: space-around;
- 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
   
-  .headerBar p{
-    font-size:  var(--gl-body-font-set-size-functional-4);;
-  }
+
 
   p{
     font-family: 'ITC Avant Garde Gothic';
-    font-size: 50px;
+    font-size: var(--barurgent-primary-onlight-typography-label-size);
+
   }
 
+input{
+  background-color: #eceff1;
+  border: solid thin #eceff1;
+  padding: 0 35px 0 10px;
+  height: 32px;
+  max-width: 230px;
+  color: black;
+  z-index: 1;
+  flex: 1;
+  transition: border ease 1s;
+}
+
+input:hover{
+  border: solid thin black;
+}
+
+.headerFirst{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.headerFirst img{
+  width: 20px;
+  margin-top: 2px;
+  outline: solid 1px black;
+  margin-right: 20px;
+}
+
+.headerFirst p{
+  font-size:  var(--gl-body-font-set-size-functional-1);;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.headerLogo{
+  display: flex;
+  align-items: end;
+  padding-left: 40px;
+  padding-right: 300px;
+}
+
+.headerOption{
+  display: flex;
+}
+
+.headerOption p{
+  font-size:  var(--gl-body-font-set-size-functional-4);;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.headerRecherche{
+  display: flex;
+  justify-content: end;
+}
+
+.texte1:hover{
+  border-bottom: solid black 1px;
+}
+
+.headerRecherche img{
+  width: 25px;
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.textDebut{
+  background-color: #eceff1;
+  padding: 15px;
+  text-align: center;
+}
+
+.imageDebut{
+  width: 100%;
+}
+
+.headerNoir{
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 9px;
+}
