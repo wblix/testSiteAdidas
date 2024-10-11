@@ -52,7 +52,7 @@ input:hover{
 }
 
 .headerFirst img{
-  width: 20px;
+  width: 40px;
   margin-top: 2px;
   outline: solid 1px black;
   margin-right: 20px;
@@ -69,6 +69,7 @@ input:hover{
   align-items: end;
   padding-left: 40px;
   padding-right: 300px;
+  width: 50;
 }
 
 .headerOption{
@@ -105,7 +106,7 @@ input:hover{
 }
 
 .imageDebut{
-  width: 100%;
+  width: 75%;
 }
 
 .headerNoir{
@@ -113,4 +114,9 @@ input:hover{
   color: white;
   background-color: black;
   padding: 9px;
+}
+
+.firstDiv{
+  display: flex;
+  justify-content: space-around;
 }
