@@ -128,19 +128,69 @@ input:hover{
 
 .texteFirst{
   position: absolute;
-  top: 65%;
-  left: 15%;
+  top: 75%;
+  left: 19%;
   width: 20%;
+}
+mark{
+  background-color: white;
+  padding: 5px;
+  font-size: 120%;
 }
 
 .first{
-  background-color: white;
   padding: 5px;
   margin: 5px;
+  
 }
 
-.second{
-  background-color: white;
-  margin: 5px;
-  padding: 5px;
+.first2{
+  display: flex;
+}
+
+.divArticl1{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 20px;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+.divArticl1 p{
+  margin: 10px;
+  width: 200px;
+}
+
+.firstArticl{
+  display: flex;
+  justify-content: center;
+}
+
+.divArticl2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: end;
+}
+.divArticl2:hover{
+  border: solid 1px black;
+}
+
+.textArticl2{
+  position: absolute;
+  left: 41%;
+}
+
+.textArticl3{
+  position: absolute;
+  left: 51%;
+}
+.textArticl4{
+  position: absolute;
+  left: 63%;
+}
+span{
+  color: red;
 }
