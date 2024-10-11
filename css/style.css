@@ -69,7 +69,10 @@ input:hover{
   align-items: end;
   padding-left: 40px;
   padding-right: 300px;
-  width: 50;
+}
+
+.headerLogo img{
+  width: 60px;
 }
 
 .headerOption{
@@ -119,4 +122,25 @@ input:hover{
 .firstDiv{
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.texteFirst{
+  position: absolute;
+  top: 65%;
+  left: 15%;
+  width: 20%;
+}
+
+.first{
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+}
+
+.second{
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
 }
