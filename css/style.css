@@ -23,7 +23,7 @@ html * {
   
 
 
-  p{
+  p, h1{
     font-family: 'ITC Avant Garde Gothic';
     font-size: var(--barurgent-primary-onlight-typography-label-size);
 
@@ -128,9 +128,9 @@ input:hover{
 
 .texteFirst{
   position: absolute;
-  top: 75%;
+  top: 70%;
   left: 19%;
-  width: 20%;
+  width: 25%;
 }
 mark{
   background-color: white;
@@ -156,6 +156,7 @@ mark{
   padding: 20px;
   padding-bottom: 10px;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .divArticl1 p{
@@ -173,6 +174,9 @@ mark{
   flex-wrap: wrap;
   justify-content: center;
   align-items: end;
+  margin-top: 40px;
+  margin-bottom:40px ;
+  padding-left: 10px;
 }
 .divArticl2:hover{
   border: solid 1px black;
@@ -180,7 +184,7 @@ mark{
 
 .textArticl2{
   position: absolute;
-  left: 41%;
+  left: 33%;
 }
 
 .textArticl3{
@@ -189,8 +193,167 @@ mark{
 }
 .textArticl4{
   position: absolute;
-  left: 63%;
+  left: 68%;
 }
 span{
   color: red;
+}
+.secondArticl{
+  display: flex;
+  overflow: scroll;
+  overflow-y: hidden;
+  width: 60vw;
+  margin-left: 14.5%;
+  
+}
+
+
+
+.divSecond1 h1{
+  font-size: 25px;
+}
+
+.secondImage{
+  background-image: url(../image/fw24_originals_shop_your_style_lookbook_plp_gallery_look_look_13_01_d_90cddb69df.avif);
+  width: 40vh;
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  margin-right: -60px;
+  padding-top: 60px;
+}
+
+.secondImage:hover{
+  background-image: url(../image/fw24_originals_shop_your_style_lookbook_plp_gallery_look_look_13_02_d_4b220af43e\ hover.avif);
+}
+
+.secondImage2{
+  background-image: url(../image/f24_originals_shop_your_style_lookbook_plp_gallery_look_look_3_01_d_593ea44fb0.avif);
+  width: 40vh;
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  margin-right: -60px;
+  padding-top: 60px;
+  margin-left: 20px
+}
+
+.secondImage2:hover{
+  background-image: url(../image/f24_originals_shop_your_style_lookbook_plp_gallery_look_look_3_02_d_2a6d383631\ hover.avif);
+}
+
+.secondImage3{
+  background-image: url(../image/w24_originals_shop_your_style_lookbook_plp_gallery_look_look_11_01_d_a5ec7fdbcf.jpg);
+  width: 40vh;
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  margin-right: -60px;
+  padding-top: 60px;
+  margin-left: 20px
+}
+
+.secondImage3:hover{
+  background-image: url(../image/w24_originals_shop_your_style_lookbook_plp_gallery_look_look_11_02_d_977457c6a9\ hover.jpg);
+}
+
+.secondImage4{
+  background-image: url(../image/green.jpg);
+  width: 40vh;
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  margin-right: -60px;
+  padding-top: 60px;
+  margin-left: 20px
+}
+
+.secondImage4:hover{
+  background-image: url(../image/green\ hover.jpg);
+}
+
+.secondImage5{
+  background-image: url(../image/red.jpg);
+  width: 40vh;
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  margin-right: -60px;
+  padding-top: 60px;
+  margin-left: 20px
+}
+
+.secondImage5:hover{
+  background-image: url(../image/red\ hover.jpg);
+}
+
+.secondImage6{
+  background-image: url(../image/black.jpg);
+  width: 40vh;
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  margin-right: -60px;
+  padding-top: 60px;
+  margin-left: 20px
+}
+
+.secondImage6:hover{
+  background-image: url(../image/black\ hover.jpg);
+}
+
+.secondImage6{
+  background-image: url(../image/mulitcolor.jpg);
+  width: 40vh;
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  margin-right: -60px;
+  padding-top: 60px;
+  margin-left: 20px
+}
+
+.secondImage6:hover{
+  background-image: url(../image/multicolor\ hover.jpg);
+}
+
+.secondImage7{
+  background-image: url(../image/blue.jpg);
+  width: 40vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  padding-top: 60px;
+  margin-left: 20px
+}
+
+.secondImage7:hover{
+  background-image: url(../image/blue\ hover.jpg);
+}
+
+.secondArticl div{
+  height: 40vh!IMPORTANT;
+  min-width: 15vw;
+}
+
+@media (max-width: 768px) {
+  header input {
+      width: 80%;
+  }
+
+  .firstArticl {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .secondArticl {
+      width: 90%;
+  }
 }
